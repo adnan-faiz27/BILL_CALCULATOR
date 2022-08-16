@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>BILL</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <h1>BILL CALCULATOR</h1>
+        <div id="container1">
+            <label for="billInput_1" value="0" class="labels">BILL 1</label>
+            <input class="inputs" type="text" oninput="BillCalculator()"id="billInput_1">
+            <label for="taxInput_1" class="labels" >TAX %</label>
+            <input class="inputs" type="text" value="0" oninput="BillCalculator()" id="taxInput_1">
+        </div>
+        <div id="container2">
+            <label for="billInput_2" class="labels">BILL 2</label>
+            <input class="inputs" type="text" value="0" oninput="BillCalculator()" id="billInput_2">
+            <label for="taxInput" class="labels" >TAX %</label>
+            <input class="inputs" type="text" value="0" oninput="BillCalculator()" id="taxInput_2">
+            <div id="containerBottom_2">
+                <h4>People</h4>
+                <button   class="change" onclick="decreasePeople()">-</button>
+                <span id="people">1</span>
+                <button class="change" onclick="increasePeople()">+</button>
+            </div>
+        </div>
+        <div id="divOutput">
+            <div id="outputContent">
+                <h6>PER PERSON</h6>
+                <i class="fa fa-rupee"></i>
+                <input type="text" id="output">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

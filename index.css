@@ -1,0 +1,96 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: 'PT Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 0, 58);
+
+}
+#mainDiv{
+    width: 25rem;
+    height: 33.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px 4px rgb(0 0 0 / 60%);
+    padding: 1rem;
+    background-color: rgb(109, 0, 143);
+    color: white;
+}
+#mainDiv h1{
+    text-align: center;
+}
+
+.labels{
+    display: block;
+}
+.inputs{
+    padding: 0.3rem 0rem 0.3rem 0.2rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+#containerBottom_2{
+    padding: 1rem 0rem 0.3rem 0rem;
+}
+#containerBottom_2 h4{
+    padding: 0rem 0rem 0.5rem 0.2rem;
+}
+#outputContent i{
+   font-size: 1.3rem;
+}
+
+#output{
+    height: 1.2rem;
+    width: 12rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem ;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+#outputContent h6{
+    padding: 0.3rem 0rem 0rem 0.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#container1{
+    padding: 1rem;
+    font-size: 1.7rem;
+
+}
+
+.change{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color: rgb(32, 0, 42);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#container2{
+    padding: 0.8rem;
+    font-size: 1.7rem;
+
+}
+#outputContent{
+    float: right;
+    font-size: 1.4rem;
+}
